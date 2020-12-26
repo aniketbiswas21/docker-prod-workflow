@@ -11,7 +11,7 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "docker-prod-workflow"
+  app: docker-prod-workflow
   env: "DockerProdWorkflow-env"
   bucket_name: "elasticbeanstalk-us-east-2-460847558312"
   bucket_path: "docker-prod-workflow"
